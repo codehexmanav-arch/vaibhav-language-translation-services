@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container navbar-content">
                 <Link to="/" className="brand-logo">
-                    <span style={{ color: 'var(--color-secondary)' }}>Vaibhav</span> Language Services
+                    <span style={{ color: 'var(--color-secondary)' }}>Vaibhav</span> Language Translation Services
                 </Link>
 
                 <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)}>
